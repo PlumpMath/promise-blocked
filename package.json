@@ -1,0 +1,25 @@
+{
+  "name": "promise-blocked",
+  "version": "1.0.0",
+  "description": "Detect which function blocks your eventloop",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naugtur/promise-blocked.git"
+  },
+  "keywords": [
+    "promise",
+    "blocked",
+    "eventloop",
+    "performance"
+  ],
+  "author": "naugtur <naugtur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naugtur/promise-blocked/issues"
+  },
+  "homepage": "https://github.com/naugtur/promise-blocked"
+}
