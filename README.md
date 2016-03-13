@@ -20,7 +20,15 @@ All functions passed to `.then` will be measured for their execution time. Funct
 slow function (202ms) signature:'function block1() {'     at blockingChain1 (test/index.js:15:24)    at shouldReportBlockingFunctionPassedToThen (test/index.js:52:5)    at Object.<anonymous> (test/index.js:57:3)
 ```
 
+### Using with bluebird
 
+To be able to extend bluebird 3.x
+
+```javascript
+var Promise = require("bluebird/js/release/promise")();
+promiseBlocked(Promise, {
+    ...
+```
 
 ## TODO
 
